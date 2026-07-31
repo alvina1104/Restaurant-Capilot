@@ -1,0 +1,44 @@
+# Секреты и переменные окружения
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# PyCharm / IDE
+.idea/
+.vscode/
+
+# Тесты и покрытие
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Логи
+*.log
+logs/
+
+# Сборка Python
+build/
+dist/
+*.egg-info/
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
